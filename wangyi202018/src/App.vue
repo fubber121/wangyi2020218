@@ -14,5 +14,8 @@ import FooterGuide from './components/FooterGuide/FooterGuide'
 </script>
 
 <style lang="stylus">
+  #appContainer
+    width  100%
+    height 100%
  
 </style>

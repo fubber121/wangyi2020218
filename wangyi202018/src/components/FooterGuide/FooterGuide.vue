@@ -42,18 +42,25 @@
   #footerContainer
     display flex
     position fixed
+    width 100%
+    height 97px
     left 0
     bottom 0
-    width 100%
+    border-top 1px solid #eee
+    box-sizing border-box
+    background #fff
     .guideItem
       width 20%
-      height 49px
+      height 50%
+      margin-top 10px
       text-align center
       display flex
       flex-direction  column
       &.active
         color #B4282D
       .iconfont
-        font-size 22px
-        line-height 30px
+        font-size 40px
+        line-height 50px
+    
+        
 </style>
